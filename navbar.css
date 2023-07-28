@@ -8,19 +8,5 @@
 .nav-link {
   margin-right: 20px;
 }
-/* .dropdown-menu {
-  transform-origin: top right;
-  animation: flipLeftAnimation 0.3s ease-in-out;
-}
 
-@keyframes flipLeftAnimation {
-  from {
-    transform: rotateY(90deg);
-    opacity: 0;
-  }
-  to {
-    transform: rotateY(0deg);
-    opacity: 1;
-  }
-} */
 
