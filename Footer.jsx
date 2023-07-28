@@ -37,41 +37,58 @@ const Footer = () => {
           <div className='text-light bg-dark p-3'>
       <div className=''>
       <div className="container d-flex">
+        
 
       <div data-aos=' fade-up'>
         <h3 style={{width:'50px'}} data-aos="fade-up" class='text-center mx-4 px-5'>Album Footer</h3>
       <div data-aos="fade-up">
+      <div className='row row-cols-6 g-0  row-cols-md-3'>
+            <div className='col col-md'>
       <img id='footer_image' src={image17}  class="img-fluid"/>
-    
+    </div>
+    <div className='col col-md'>
       <img id='footer_image' src={image18} class="img-fluid"/>
-    
+      </div>
+      <div className='col col-md'>
       <img id='footer_image' src={image19} class="img-fluid"/>
+      </div>
 
-    <div class="w-1"></div>
-
+    {/* <div class="w-1"></div> */}
+    <div className='col col-md'>
       <img id='footer_image' src={image20} class="img-fluid"/>
-    
+      </div>
+      <div className='col col-md g-0'>
       <img id='footer_image' src={image21} class="img-fluid"/>
-   
+      </div>
+      <div className='col col-md'>
       <img id='footer_image' src={image22} class="img-fluid"/>
+      </div>
 
-    <div class="w-60"></div>
+    {/* <div class="w-60"></div> */}
 
- 
+    <div className='col col-md'>
       <img id='footer_image' src={image23} class="img-fluid"/>
-    
+      </div>
+      <div className='col col-md'>
       <img id='footer_image' src={image24} class="img-fluid"/>
- 
+      </div>
+      <div className='col col-md'>
       <img id='footer_image' src={image25} class="img-fluid"/>
+      </div>
 
-    <div class="w-1"></div>
+    {/* <div class="w-1"></div> */}
 
-
+    <div className='col col-md'>
       <img id='footer_image' src={image26} class="img-fluid"/>
-    
+      </div>
+      <div className='col col-md'>
       <img id='footer_image' src={image27} class="img-fluid"/>
- 
+      </div>
+      <div className='col col-md'>
       <img id='footer_image' src={image28} class="img-fluid"/></div>
+
+      </div>
+      </div>
 </div>
 
       <div data-aos='fade-up'>
@@ -98,7 +115,7 @@ const Footer = () => {
         </div>
 
       <div data-aos='fade-up'>
-        <div className='px-5 mx-2'>
+        <div className='category px-5 mx-2'>
         <ul style={{listStyle: 'none'}}>
         <h3>Categories</h3>
             <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-folder-fill" viewBox="0 0 16 16">
@@ -124,7 +141,7 @@ const Footer = () => {
         <div className='mx-5 px-2'>
         <ul style={{listStyle: 'none'}}>
         <h3>Products </h3>
-        <div class='my-1'><li>Patient Ninja <img id='footer_products' src={footer1}/></li>
+        <div class='my-1'><li>Patient Ninja<img id='footer_products' src={footer1}/></li>
         <li>$35.00 </li></div>
         <div class='my-1'><li>Ship Your Idea <img id='footer_products' src={footer2}/></li>
         <li>$15.00</li></div>
@@ -146,14 +163,14 @@ const Footer = () => {
 
         <div class='mak bg-black'>
         <div className='botton_footer d-flex justify-content-center '>
-        <img id='bottomfooter_img' src={facebook}/>
-        <img id='bottomfooter_img' src={twitter}/>
-        <img id='bottomfooter_img' src={youtube}/>
-        <img id='bottomfooter_img' src={vimeo}/>
-        <img id='bottomfooter_img' src={pinterest}/>
-        <img id='bottomfooter_img' src={instagram}/>
-        <img id='bottomfooter_img' src={linkedin}/>
-        <img id='bottomfooter_img' src={wifi}/>
+        <img href="#" id='bottomfooter_img' src={facebook}/>
+        <img href="#" id='bottomfooter_img' src={twitter}/>
+        <img href="#" id='bottomfooter_img' src={youtube}/>
+        <img href="#" id='bottomfooter_img' src={vimeo}/>
+        <img href="#" id='bottomfooter_img' src={pinterest}/>
+        <img href="#" id='bottomfooter_img' src={instagram}/>
+        <img href="#" id='bottomfooter_img' src={linkedin}/>
+        <img href="#" id='bottomfooter_img' src={wifi}/>
         
         </div>
         <p className=' d-flex justify-content-center m-3'>Your Custom © Copyright SEOS THEMES</p>
