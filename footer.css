@@ -16,6 +16,12 @@
     }
   
 }
+@media (min-width: 700px) {
+    #footer_image{
+        margin-right: -50px;
+    }
+  
+}
 
 
 
