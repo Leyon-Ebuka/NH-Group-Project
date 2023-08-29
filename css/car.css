@@ -1,0 +1,18 @@
+.main-carousel{
+    width: 33%;
+    margin: 0 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.cell img{
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-item{
+    width: 300px;
+    display: flex;
+}
+#img{
+    width: 200px;
+    height: 200px;
+}

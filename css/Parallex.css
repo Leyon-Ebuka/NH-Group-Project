@@ -1,0 +1,19 @@
+.parallex_content{
+background-position: center;
+background-size: cover;
+position:relative;
+color:white;
+background: fixed;
+background-size: cover;
+}
+
+.parallex_text{
+    font-size: 6vw;
+    margin: 0;
+    line-height: 500px;
+    text-align: center;
+    color: #B5B5B5;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -2px black;
+}

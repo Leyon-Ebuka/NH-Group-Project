@@ -1,0 +1,232 @@
+.main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.ninja_image{
+    width: 500px;
+    height: 500px;
+    transition: transform .2s;
+}  
+
+#star{
+    width: 17px;
+}
+#rating{
+    margin-top: 30px;
+}
+#tote{
+    width: 20px;
+    margin-right: 10px;
+}
+#eye{
+    width: 20px;
+    margin-right: 10px;
+}
+.nav-link:hover{
+    cursor: pointer;
+}
+.ninja_image:hover {
+    transform: scale(1.1);
+}
+.hidden{
+    display: none;
+}
+.hoodie{
+    width: 251px;
+    height: 410px;
+    box-sizing: border-box;
+    border: 0.5px solid rgb(203, 203, 203);
+    margin-bottom: 20px;
+}
+.main-hoodie{
+    width: 251px;
+    height: 410px;
+    box-sizing: border-box;
+    border: 0.5px solid rgb(203, 203, 203);
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.main-hoodie-one{
+    height: 250px;
+}
+.main-hoodie:hover{
+    cursor: pointer;
+}
+.hoodie:hover{
+    cursor: pointer;
+}
+#center{
+    text-align: center;
+    font-size: 11px;
+}
+.hoodie-one{
+    height: 250px;
+}
+
+.kk {
+    clear: both; /* Clear the float to ensure proper layout */
+  }
+#plus{
+    width: 50px;
+    height: 40px;
+    background: rgb(201, 200, 200);
+    margin-right: 1px;
+    line-height: 40px;
+    text-align: center;
+}
+#plus:hover{
+    cursor: pointer;
+    background: grey;
+}
+#minus{
+    width: 50px;
+    height: 40px;
+    background: rgb(201, 200, 200);
+    margin-right: 4px;
+    line-height: 40px;
+    text-align: center;
+}
+#minus:hover{
+    cursor: pointer;
+    background: grey;
+}
+#iteration{
+    width: 50px;
+    height: 40px;
+    background: rgb(201, 200, 200);
+    margin-right: 1px;
+    text-align: center;
+    line-height: 40px;
+}
+#cart{
+    width: 140px;
+    height: 40px;
+    background: grey;
+    text-align: center;
+    line-height: 40px;
+}
+#cart:hover{
+    cursor: pointer;
+    background: rgb(148, 147, 147);
+}
+#profile{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 5px solid rgb(203, 203, 203);
+}
+.comment{
+    height: 110px;
+    width: 1500px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 3px;
+}
+@media(max-width:529px){
+    .hoodie{
+        width: 200px;
+        height: 100%;
+    }
+    .hoodie.l{
+        margin-top: 35px;
+
+    }
+    .hoodie-one{
+        width: 100%;
+        height: 60%;
+    }
+    .main{
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .main-hoodie{
+        width: 85%;
+    }
+    .main-hoodie-one{
+        width: 100%;
+    }
+}
+@media(max-width:800px){
+    .ninja_image{
+        width: 95%;
+    }
+    .hoodie{
+        width: 150px;
+        height: 100%;
+    }
+    .hoodie-one{
+        height: 50%;
+        width: 100%;
+    }
+}
+@media(max-width:300px){
+    .hoodie{
+        width: 100px;
+        height: 100%;
+    }
+    .hoodie.l{
+        margin-top: 35px;
+
+    }
+    .hoodie-one{
+        height: 40%;
+        width: 100%;
+    }
+}
+@media(min-width:530px) and (max-width:600px){
+    .hoodie{
+        width: 230px;
+        height: 100%;
+    }
+    .hoodie .l{
+        margin-bottom: 35px;
+
+    }
+    .hoodie-one{
+        height: 60%;
+        width: 100%;
+    }
+    .main{
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+}
+@media(min-width:600px) and (max-width:700px){
+    .hoodie{
+        width: 260px;
+        height: 100%;
+    }
+    .hoodie .l{
+        margin-top: 35px;
+
+    }
+    .hoodie-one{
+        width: 100%;
+        height: 60%;
+    }
+    .main{
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+}
+@media(min-width:700px) and (max-width:1200px){
+    .main{
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+    .hoodie{
+        width: 90%;
+        height: 100%;
+    }
+    .hoodie-one{
+        width: 100%;
+        height: 55%;
+    }
+    .ninja_image{
+        width: 50%;
+        height: 1%;
+    }
+
+}

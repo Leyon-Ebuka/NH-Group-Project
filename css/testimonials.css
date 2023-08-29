@@ -1,0 +1,22 @@
+#testimonials_img{
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    border-style: solid;
+    border-color: #B5B5B5;
+    border-width: 10px;
+    margin-left: 10px;
+}
+
+.column{
+    flex: 0.7;
+    border: 2px solid;
+    border-color: white;
+    padding: 10px;
+    /* justify-content: center; */
+}
+@media screen and (max-width: 500px) {
+    .column{
+    margin-left: 100px;
+    }
+}
