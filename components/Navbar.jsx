@@ -1,0 +1,76 @@
+import React from 'react'
+import {Link} from 'react-router-dom'
+import '../css/navbar.css'
+import user from '../images/user.png'
+
+
+const Navbar = () => {
+  return (
+    <div>
+<nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div className="container-fluid d-flex">
+    {/* <Link to="/" className="navbar-brand" href="#"></Link > */}
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav mb-2 mb-lg-0">
+        <li className="nav-item">
+          <Link to="/" className="nav-link active dropdown-toggle" aria-current="page"  href="#"><div></div>Home</Link >
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Sample 1</a></li>
+            <li><a className="dropdown-item" href="#">Level 1</a></li>
+            <li><a className="dropdown-item" href="#">Level 1</a></li>
+          </ul>
+        </li>
+        <li className="nav-item">
+          <Link to="/shop" className="nav-link dropdown-toggle" href="#" aria-expanded="false">Shop</Link >
+        <ul className="dropdown-menu">
+            <li><Link to="/ninja"href="#" style={{textDecoration:'none'}}><a className="dropdown-item">Product Page-Full Width</a></Link></li>
+            <li><a className="dropdown-item" href="#">Product Page-Left Sidebar</a></li>
+            <li><a className="dropdown-item" href="#">Product Page-Right Sidebar</a></li>
+          </ul>
+        </li>
+        <li className="nav-item">
+        <Link to="/shortcodes" className="nav-link dropdown-toggle" href="#">Shortcodes</Link >
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Gallery</a></li>
+            <li><a className="dropdown-item" href="#">Price List</a></li>
+            <li><a className="dropdown-item" href="#">Image Slider</a></li>
+            <li><a className="dropdown-item" href="#">Testimonials</a></li>
+          </ul>
+        </li>
+        <li className="nav-item">
+          <Link to="/blog" className="nav-link dropdown-toggle">Blog</Link >
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href='./right'> Right Sidebar</a></li>
+            <li><a className="dropdown-item" href="#">Left Sidebar</a></li>
+          </ul>
+        </li>
+        <li className="nav-item">
+          <Link to="/categories" className="nav-link dropdown-toggle">Categories</Link >
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Nature</a></li>
+            <li><a className="dropdown-item" href="#">People</a></li>
+            <li><a className="dropdown-item" href="./cosmos">Cosmos</a></li>       {/* another way to link my page*/}
+            <li><a className="dropdown-item" href="#">Animals</a></li>
+            <li><a className="dropdown-item" href="#">Others</a></li>
+          </ul>
+        </li>
+        <li className="nav-item">
+          <Link to="/contact" className="nav-link">Contact</Link >
+        </li>
+      </ul>
+      {/* <form className="d-flex" role="search">
+        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button className="btn btn-outline-success" type="submit">Search</button>
+      </form> */}
+    </div>
+    <div className=''><img className='user mx-2' src={user}/><a style={{textDecoration:'none', color:'white'}} href='./login'>Login / Register</a></div>
+  </div>
+</nav>
+    </div>
+  )
+}
+
+export default Navbar
