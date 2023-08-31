@@ -1,0 +1,10 @@
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+.user{
+  width: 20px;
+  height: 20px;
+}
+.nav-link {
+  margin-right: 20px; 
+}
